@@ -20,7 +20,7 @@ export class UserListComponent implements OnInit {
   }
 
   getStudentData() {
-    this.http.get('./../../assets/json/user.json').subscribe((res) => {
+    this.http.get('./assets/json/user.json').subscribe((res) => {
       this.studentData = res;
       console.log(this.studentData);
     });

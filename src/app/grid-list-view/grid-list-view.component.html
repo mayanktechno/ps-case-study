@@ -16,7 +16,7 @@
   
   <div class="row">
     <div  *ngFor="let item of items" class="column">
-      <img style="display: flex;" src="./../../assets/images/{{item.image}}">
+      <img style="display: flex;" src="./assets/images/{{item.image}}">
       <h2>{{item.name |uppercase}}</h2>
       <h4>{{item.price |currency:'INR'}}</h4>
     </div>
